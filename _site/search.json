@@ -7,13 +7,6 @@
     "text": "In this lecture we will explore:"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
     "objectID": "index.html#what-is-git",
     "href": "index.html#what-is-git",
     "title": "Introduction to Git and GitHub",
@@ -54,5 +47,12 @@
     "title": "Introduction to Git and GitHub",
     "section": "Learning basic commands",
     "text": "Learning basic commands\n\nYour best friend git status.\ngit add &lt;file&gt; to stage/track changes.\n\ngit add . to stage all files.\n\ngit commit -m \"Commit message\" to commit all your files.\ngit pull to get changes from upstream(GitHub) to your local.\ngit push to update your code to upstream(GitHub).\n\n\n\n\nImage Credits: https://blog.codeitbro.com/funny-git-memes\n\n\nSo remember next time you are in an emergency\n\n\n\nImage Credits: https://blog.codeitbro.com/funny-git-memes"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
   }
 ]
