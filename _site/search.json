@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Introduction to Git and GitHub",
+    "section": "",
+    "text": "In this lecture we will explore:"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html#what-is-git",
+    "href": "index.html#what-is-git",
+    "title": "Introduction to Git and GitHub",
+    "section": "What is Git?",
+    "text": "What is Git?\n\nGit is a distributed version control system that tracks versions of files. It is often used to control source code by programmers who are developing software collaboratively.\nGit is free and open-source software shared under the GPL-2.0-only license.\nGit was originally created by Linus Torvalds for version control in the development of the Linux kernel.\nTorvalds started developing Git in April 2005.\nTorvalds sarcastically quipped about the name git (which is British English slang for an unpleasant or silly person): “I’m an egotistical bastard, and I name all my projects after myself. First ‘Linux’, now ‘git’.”"
+  },
+  {
+    "objectID": "index.html#why-git",
+    "href": "index.html#why-git",
+    "title": "Introduction to Git and GitHub",
+    "section": "Why Git?",
+    "text": "Why Git?\n\n\n\nImage Credits: https://blog.codeitbro.com/funny-git-memes\n\n\n\nTrack history\nCollaboration"
+  },
+  {
+    "objectID": "index.html#what-is-github",
+    "href": "index.html#what-is-github",
+    "title": "Introduction to Git and GitHub",
+    "section": "What is GitHub?",
+    "text": "What is GitHub?\n\nGitHub is a proprietary developer platform that allows developers to create, store, manage, and share their code.\nIt is commonly used to host open source software development projects.\nIts parent company is Microsoft."
+  },
+  {
+    "objectID": "index.html#git-vs-github",
+    "href": "index.html#git-vs-github",
+    "title": "Introduction to Git and GitHub",
+    "section": "Git VS GitHub",
+    "text": "Git VS GitHub\n\nGit\n\nA tool (software) installed on your computer.\nA distributed version control system → tracks changes, manages history, branches, merging.\nWorks locally (you don’t even need the internet).\n\n\n\nGitHub\n\nA service/platform on the internet.\nHosts Git repositories in the cloud → makes collaboration easy.\nAdds features on top of Git like pull requests, issues, project boards, CI/CD.\n\nYou can use Git without GitHub but you can not use Github without Git.\n\n\n\nImage Credits: https://blog.codeitbro.com/funny-git-memes"
+  },
+  {
+    "objectID": "index.html#setting-up-git",
+    "href": "index.html#setting-up-git",
+    "title": "Introduction to Git and GitHub",
+    "section": "Setting up Git",
+    "text": "Setting up Git\n\nCredits: Anand Chitipothu website: anandology.github.io/isi-fcp\n\nSetup git by configuring your name and email address in git.\n$ git config --global user.name \"V Sai Prabhav\"\n$ git config --global user.email \"prabhav@example.com\"\nPlease use your name and email address in the example above. Also, make sure the email address is same as what you have used when creating an account on github.\n\nSetup ssk-key\n$ ssh-keygen -t ed25519 -C my-name@my-laptop-name\nThat will output the following:\nGenerating public/private ed25519 key pair.\nEnter file in which to save the key (/home/anand/.ssh/id_ed25519):\nJust press Enter.\n\n\nAdding ssk-key to GitHub\nGitHub Guide\n\n\nCreate A GitHub repository\n\n\nClone your repository\n\nCopy your ssh URL from your repo’s homepage. Code -&gt; Local SSH -&gt; Copy.\nOpen your terminal move to a working directory.\n\ngit clone git@github.com:Sai-Prabhav/bmath_notes.git\ncd bmath_notes"
+  },
+  {
+    "objectID": "index.html#learning-basic-commands",
+    "href": "index.html#learning-basic-commands",
+    "title": "Introduction to Git and GitHub",
+    "section": "Learning basic commands",
+    "text": "Learning basic commands\n\nYour best friend git status.\ngit add &lt;file&gt; to stage/track changes.\n\ngit add . to stage all files.\n\ngit commit -m \"Commit message\" to commit all your files.\ngit pull to get changes from upstream(GitHub) to your local.\ngit push to update your code to upstream(GitHub).\n\n\n\n\nImage Credits: https://blog.codeitbro.com/funny-git-memes\n\n\nSo remember next time you are in an emergency\n\n\n\nImage Credits: https://blog.codeitbro.com/funny-git-memes"
+  }
+]

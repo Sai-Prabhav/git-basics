@@ -1,0 +1,112 @@
+
+---
+title: "Introduction to Git and GitHub"
+---
+
+In this lecture we will explore:
+
+- What is git?
+- Why git?
+- What is GitHub?
+- Git VS GitHub
+- Setting up Git/ GitHub.
+- Learning basic commands 
+
+## What is Git?
+
+- Git is a distributed version control system that tracks versions of files. It is often used to control source code by programmers who are developing software collaboratively.
+
+- Git is free and open-source software shared under the GPL-2.0-only license.
+- Git was originally created by Linus Torvalds for version control in the development of the Linux kernel.
+- Torvalds started developing Git in April 2005.
+- Torvalds sarcastically quipped about the name git (which is British English slang for an unpleasant or silly person): "I'm an egotistical bastard, and I name all my projects after myself. First 'Linux', now 'git'."
+
+## Why Git?
+
+![Image Credits: https://blog.codeitbro.com/funny-git-memes](./whygit.jpeg)
+
+- Track history
+- Collaboration 
+
+## What is GitHub?
+- GitHub is a proprietary developer platform that allows developers to create, store, manage, and share their code. 
+- It is commonly used to host open source software development projects.
+- Its parent company is Microsoft.
+
+
+
+## Git VS GitHub
+
+### Git
+- A tool (software) installed on your computer.
+- A distributed version control system → tracks changes, manages history, branches, merging.
+- Works locally (you don’t even need the internet).
+
+### GitHub
+- A service/platform on the internet.
+- Hosts Git repositories in the cloud → makes collaboration easy.
+- Adds features on top of Git like pull requests, issues, project boards, CI/CD.
+
+**You can use Git without GitHub but you can not use Github without Git.**
+
+![Image Credits: https://blog.codeitbro.com/funny-git-memes](./GitVSGitHub.jpeg)
+
+## Setting up Git
+::: {.small}
+Credits: Anand Chitipothu website: anandology.github.io/isi-fcp
+:::
+
+Setup git by configuring your name and email address in git.
+```
+$ git config --global user.name "V Sai Prabhav"
+$ git config --global user.email "prabhav@example.com"
+```
+
+Please use your name and email address in the example above. Also, make sure the email address is same as what you have used when creating an account on github.
+
+### Setup ssk-key
+```
+$ ssh-keygen -t ed25519 -C my-name@my-laptop-name
+```
+
+That will output the following:
+```
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/home/anand/.ssh/id_ed25519):
+```
+Just press Enter.
+
+### Adding ssk-key to GitHub
+
+[GitHub Guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account)
+
+### Create A GitHub repository
+
+### Clone your repository
+
+- Copy your ssh URL from your repo's homepage. Code -> Local SSH -> Copy.
+
+- Open your terminal move to a working directory.
+
+```sh
+git clone git@github.com:Sai-Prabhav/bmath_notes.git
+cd bmath_notes
+```
+
+## Learning basic commands
+
+- Your best friend `git status`.
+
+- `git add <file>` to stage/track changes.
+  - `git add .` to stage all files.
+- `git commit -m "Commit message"` to commit all your files.
+- `git pull` to get changes from upstream(GitHub) to your local.
+- `git push` to update your code to upstream(GitHub).
+
+![Image Credits: https://blog.codeitbro.com/funny-git-memes](./git.jpeg)
+
+So remember next time you are in an emergency 
+
+![Image Credits: https://blog.codeitbro.com/funny-git-memes](./fire.jpeg)
+
+
