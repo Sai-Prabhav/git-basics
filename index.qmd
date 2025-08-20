@@ -56,6 +56,8 @@ In this lecture we will explore:
 Credits: Anand Chitipothu website: anandology.github.io/isi-fcp
 :::
 
+Install Git visit [Git Installer]( https://git-scm.com/download/win)
+
 Setup git by configuring your name and email address in git.
 ```
 $ git config --global user.name "V Sai Prabhav"
